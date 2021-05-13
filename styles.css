@@ -1,0 +1,238 @@
+/* css index.html */
+/* белый background: #FFFFFF; */
+/* вторичный цвет фона #F5F4FA; */
+/* акцент  #2196F3; */
+/* основной цвет текста серый #757575; */
+/* вторичный текст #212121; */
+:root {
+    --primary-text-color:#757575;
+    --accent-color:#2196F3;
+    --secondary-text-color:#212121;
+    --black-color-text:#000000;
+    --white: #FFFFFF;
+    --white-secondary: rgba(255, 255, 255, 0.6);
+    --secodary-accent: #188CE8;
+    --dark-background-color:#2F303A;
+    --secondary-background: #F5F4FA;
+    
+    
+}
+ul {
+    list-style: none;
+}
+
+.text {
+    text-decoration: none;
+}
+body { 
+background-color: var(--white);
+color: var(--primary-text-color);
+font-family: Roboto,sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em; }
+
+
+
+
+
+/* logo */
+
+.logo {
+color: var(--black-color-text);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+span {
+    color: var(--accent-color);
+}
+/* site nav */
+.site-nav a {
+    color: var(--secondary-text-color);
+    font-weight: 500;   
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+
+}
+
+.site-nav a:hover, .site-nav a:focus {
+ color: var(--accent-color);   
+}
+.site-nav .active {
+    color: var(--accent-color);
+}
+.contacts-nav .link {
+    color: var(--primary-text-color) ;
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+.contacts-nav .link:focus, .contacts-nav .link:hover{
+color: var(--accent-color) ;
+}
+.section-title {
+    color: var(--secondary-text-color);
+}
+/* hero */
+.hero {
+    background-color: var(--dark-background-color);
+    color: var(--white);
+
+}
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+.hero-button {
+    color: var(--white);
+    background-color:var(--accent-color);
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+font-family: inherit;
+}
+.hero .hero-button:hover,
+.hero .hero-button:focus {
+    color: var(--white);
+    background-color: var(--secodary-accent)
+}
+/* feature */
+.feature-list .section-title {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+
+.section-work .section-title {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+}
+
+/* люди */
+.section-team {
+    background-color: var(--secondary-background);
+}
+
+.section-team .section-title {
+    color: var(--secondary-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+}
+.members-name .section-title {
+color: var(--secondary-text-color);   
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+}
+.members-name p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18px;
+text-align: center;
+}
+
+footer {
+
+    background-color:#2F303A;
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+
+
+
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+.footer .logo{
+    color: #FFFFFF;
+}
+.address {
+    color: rgba(255, 255, 255, 0.6);
+    list-style: none;
+   
+}
+
+.address:hover, .address:focus {
+    color: var(--accent-color);
+}
+address {font-style: normal;}
+
+
+
+
+
+
+
+
+
+/* portfolio.html */
+
+
+
+
+/* Button */
+.filters-button .button {
+    color:var(--secondary-text-color);
+background-color: #F5F4FA;
+text-decoration: none;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+
+
+text-align: center;
+letter-spacing: 0.03em;
+cursor: pointer;
+}
+.filters-button .button:hover,
+.filters-button .button:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+
+
+
+
+/* foto */
+
+.portfolio .section-title {
+
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+
+}
+.portfolio p {
+font-size: 16px;
+line-height: 1.8;
+}
+
+
+
